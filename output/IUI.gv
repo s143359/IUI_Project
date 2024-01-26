@@ -23,7 +23,7 @@ digraph IUI {
 	E -> 5
 	6 [label="skład"]
 	A -> 6
-	7 [label="wprowadzić"]
+	7 [label=ogrzewania]
 	A -> 7
 	C -> 7
 	D -> 7
@@ -40,326 +40,324 @@ digraph IUI {
 	A -> 11
 	12 [label=starego]
 	E -> 12
-	13 [label=ogrodzenia]
+	13 [label="zarządca"]
 	A -> 13
-	B -> 13
-	C -> 13
-	E -> 13
-	14 [label="zarządca"]
-	A -> 14
-	15 [label=bankowych]
+	14 [label=bankowych]
+	B -> 14
+	15 [label=osobowe]
 	B -> 15
-	16 [label=osobowe]
-	B -> 16
-	17 [label="głosów"]
+	16 [label="głosów"]
+	A -> 16
+	17 [label=kosztach]
 	A -> 17
-	18 [label=kosztach]
+	18 [label="wymienić"]
 	A -> 18
-	19 [label="wymienić"]
-	A -> 19
-	20 [label=roszczenie]
+	19 [label=roszczenie]
+	E -> 19
+	20 [label="wartość"]
+	A -> 20
 	E -> 20
-	21 [label=prac]
-	A -> 21
-	E -> 21
-	22 [label=budowlanego]
+	21 [label=budowlanego]
+	B -> 21
+	22 [label=salonu]
 	B -> 22
-	23 [label=salonu]
-	B -> 23
-	24 [label=wieczystej]
-	A -> 24
-	25 [label=utraconego]
-	D -> 25
-	26 [label=podejrzeniem]
+	23 [label=wieczystej]
+	A -> 23
+	24 [label=utraconego]
+	D -> 24
+	25 [label=podejrzeniem]
+	E -> 25
+	26 [label="stażysta"]
 	E -> 26
-	27 [label="stażysta"]
-	E -> 27
-	28 [label="będzie"]
-	B -> 28
-	29 [label=zawodowego]
-	D -> 29
-	30 [label=dziedziczenia]
-	A -> 30
-	31 [label=zatrudniona]
-	E -> 31
-	32 [label="zaległe"]
-	D -> 32
-	33 [label=pani]
+	27 [label="będzie"]
+	B -> 27
+	28 [label=zawodowego]
+	D -> 28
+	29 [label=dziedziczenia]
+	A -> 29
+	30 [label=zatrudniona]
+	E -> 30
+	31 [label="zaległe"]
+	D -> 31
+	32 [label=pani]
+	A -> 32
+	33 [label=drodze]
 	A -> 33
-	34 [label=roszczenia]
-	A -> 34
-	G -> 34
-	I -> 34
-	35 [label="pracować"]
+	G -> 33
+	I -> 33
+	34 [label="pracować"]
+	E -> 34
+	35 [label="przyjęcia"]
 	E -> 35
-	36 [label="przyjęcia"]
-	E -> 36
-	37 [label=farmacji]
-	C -> 37
-	38 [label="drugą"]
-	E -> 38
-	39 [label="własną"]
-	D -> 39
-	40 [label=winna]
-	A -> 40
-	41 [label=lekarza]
+	36 [label=farmacji]
+	C -> 36
+	37 [label="drugą"]
+	E -> 37
+	38 [label="własną"]
+	D -> 38
+	39 [label=winna]
+	A -> 39
+	40 [label=lekarza]
+	I -> 40
+	41 [label=charakterze]
 	I -> 41
-	42 [label=charakterze]
+	42 [label=zakazu]
 	I -> 42
-	43 [label=zakazu]
-	I -> 43
-	44 [label=szpitalem]
-	E -> 44
-	45 [label=podpisanie]
+	43 [label=szpitalem]
+	E -> 43
+	44 [label=podpisanie]
+	D -> 44
+	45 [label=oblicza]
 	D -> 45
-	46 [label=oblicza]
-	D -> 46
-	47 [label="właścicielu"]
-	A -> 47
-	48 [label="zadań"]
-	E -> 48
-	49 [label=karnym]
-	I -> 49
-	50 [label="skrócenia"]
+	46 [label="właścicielu"]
+	A -> 46
+	47 [label="zadań"]
+	E -> 47
+	48 [label=karnym]
+	I -> 48
+	49 [label="skrócenia"]
+	D -> 49
+	50 [label="równoważnym"]
 	D -> 50
-	51 [label="równoważnym"]
-	D -> 51
-	52 [label="dokumentację"]
-	I -> 52
-	53 [label=tomografii]
-	E -> 53
-	54 [label=zezwolenia]
-	C -> 54
-	55 [label=ochrona]
-	D -> 55
-	56 [label=szpitalnej]
+	51 [label="dokumentację"]
+	I -> 51
+	52 [label=tomografii]
+	E -> 52
+	53 [label=zezwolenia]
+	C -> 53
+	54 [label=ochrona]
+	D -> 54
+	55 [label=szpitalnej]
+	C -> 55
+	56 [label=kategorii]
 	C -> 56
-	57 [label=kategorii]
-	C -> 57
-	58 [label="przestępstwa"]
-	I -> 58
-	59 [label=innych]
-	E -> 59
-	60 [label="doprowadzić"]
-	A -> 60
-	61 [label="zrezygnować"]
-	B -> 61
-	E -> 61
-	62 [label="wziąć"]
-	C -> 62
-	63 [label="nabywcą"]
-	G -> 63
-	64 [label="poszczególnych"]
+	57 [label="przestępstwa"]
+	I -> 57
+	58 [label=innych]
+	E -> 58
+	59 [label="doprowadzić"]
+	A -> 59
+	60 [label=dojazdowej]
+	B -> 60
+	E -> 60
+	61 [label="wziąć"]
+	C -> 61
+	62 [label="nabywcą"]
+	G -> 62
+	63 [label="poszczególnych"]
+	A -> 63
+	64 [label=wody]
 	A -> 64
-	65 [label=wody]
-	A -> 65
+	E -> 64
+	65 [label="ubezwłasnowolniona"]
 	E -> 65
-	66 [label="ubezwłasnowolniona"]
-	E -> 66
-	67 [label="zakładowego"]
+	66 [label="zakładowego"]
+	D -> 66
+	67 [label=zmiana]
 	D -> 67
-	68 [label=zmiana]
-	D -> 68
-	69 [label="zwolnioną"]
-	B -> 69
-	70 [label=podmiocie]
-	E -> 70
-	71 [label="obniżyć"]
-	D -> 71
-	72 [label="pobierającego"]
-	C -> 72
-	73 [label="możliwe"]
+	68 [label="zwolnioną"]
+	B -> 68
+	69 [label=podmiocie]
+	E -> 69
+	70 [label="obniżyć"]
+	D -> 70
+	71 [label="pobierającego"]
+	C -> 71
+	72 [label="możliwe"]
+	E -> 72
+	73 [label="zmusić"]
 	E -> 73
-	74 [label="zmusić"]
+	74 [label=szkolenie]
 	E -> 74
-	75 [label=szkolenie]
-	E -> 75
-	76 [label=recepcie]
-	C -> 76
-	77 [label=opiekuna]
-	E -> 77
-	78 [label=komornik]
-	A -> 78
-	79 [label="ograniczyć"]
-	D -> 79
-	80 [label=jakie]
-	I -> 80
-	81 [label=zabiegu]
-	E -> 81
-	82 [label=jednostronne]
-	A -> 82
-	83 [label="ośrodka"]
-	B -> 83
-	84 [label="fiskalną"]
-	G -> 84
-	85 [label=minimalnego]
+	75 [label=recepcie]
+	C -> 75
+	76 [label=opiekuna]
+	E -> 76
+	77 [label=komornik]
+	A -> 77
+	78 [label="ograniczyć"]
+	D -> 78
+	79 [label=jakie]
+	I -> 79
+	80 [label=zabiegu]
+	E -> 80
+	81 [label=jednostronne]
+	A -> 81
+	82 [label="ośrodka"]
+	B -> 82
+	83 [label="fiskalną"]
+	G -> 83
+	84 [label=minimalnego]
+	D -> 84
+	85 [label=nadliczbowych]
 	D -> 85
-	86 [label=nadliczbowych]
+	86 [label="niepełnosprawności"]
 	D -> 86
-	87 [label="niepełnosprawności"]
-	D -> 87
-	88 [label=zachowku]
-	A -> 88
-	89 [label=komentarz]
-	E -> 89
-	90 [label="możliwy"]
-	A -> 90
-	91 [label=karnego]
-	I -> 91
-	92 [label="powiększenie"]
-	A -> 92
-	93 [label="dyżurować"]
-	E -> 93
-	94 [label=klientowi]
-	I -> 94
-	95 [label=dodatkowego]
+	87 [label=zachowku]
+	A -> 87
+	88 [label=komentarz]
+	E -> 88
+	89 [label="możliwy"]
+	A -> 89
+	90 [label=karnego]
+	I -> 90
+	91 [label="powiększenie"]
+	A -> 91
+	92 [label="dyżurować"]
+	E -> 92
+	93 [label=klientowi]
+	I -> 93
+	94 [label=dodatkowego]
+	D -> 94
+	95 [label=wypowiedziana]
 	D -> 95
-	96 [label=wypowiedziana]
-	D -> 96
-	97 [label=prawne]
-	I -> 97
-	98 [label="dyskryminację"]
-	D -> 98
-	99 [label=posiadania]
-	G -> 99
-	100 [label=psycholog]
-	I -> 100
-	101 [label=instytucja]
-	A -> 101
-	102 [label="udostępnienia"]
-	E -> 102
-	103 [label=uznane]
+	96 [label=prawne]
+	I -> 96
+	97 [label="dyskryminację"]
+	D -> 97
+	98 [label=posiadania]
+	G -> 98
+	99 [label=psycholog]
+	I -> 99
+	100 [label=instytucja]
+	A -> 100
+	101 [label="udostępnienia"]
+	E -> 101
+	102 [label=uznane]
+	D -> 102
+	103 [label=niedziele]
 	D -> 103
-	104 [label=niedziele]
-	D -> 104
-	105 [label=udzielenie]
-	E -> 105
-	106 [label=utrzymania]
-	A -> 106
-	107 [label=odprawa]
-	D -> 107
-	108 [label="dyżurze"]
+	104 [label=udzielenie]
+	E -> 104
+	105 [label=utrzymania]
+	A -> 105
+	106 [label=odprawa]
+	D -> 106
+	107 [label="dyżurze"]
+	E -> 107
+	108 [label=prawna]
 	E -> 108
-	109 [label=prawna]
-	E -> 109
-	110 [label=odpowiedniej]
-	D -> 110
-	111 [label=specjalizacyjnego]
-	E -> 111
-	112 [label="ograniczoną"]
-	A -> 112
-	113 [label="aptekę"]
-	C -> 113
-	114 [label=udzielania]
+	109 [label=odpowiedniej]
+	D -> 109
+	110 [label=specjalizacyjnego]
+	E -> 110
+	111 [label="ograniczoną"]
+	A -> 111
+	112 [label="aptekę"]
+	C -> 112
+	113 [label=udzielania]
+	E -> 113
+	114 [label=kontakt]
 	E -> 114
-	115 [label=kontakt]
+	115 [label="obecną"]
 	E -> 115
-	116 [label="obecną"]
+	116 [label="osobą"]
 	E -> 116
-	117 [label="osobą"]
+	117 [label=sarscov]
 	E -> 117
-	118 [label=sarscov]
-	E -> 118
-	119 [label=planu]
-	D -> 119
-	120 [label=epidemiologicznego]
-	E -> 120
-	121 [label=pracownikowi]
+	118 [label=planu]
+	D -> 118
+	119 [label=epidemiologicznego]
+	E -> 119
+	120 [label=pracownikowi]
+	D -> 120
+	121 [label=wypoczynkowego]
 	D -> 121
-	122 [label=wypoczynkowego]
+	122 [label="wynikającej"]
 	D -> 122
-	123 [label="wynikającej"]
+	123 [label=zwolniony]
 	D -> 123
-	124 [label=zwolniony]
-	D -> 124
-	125 [label=wyciekiem]
-	C -> 125
-	126 [label=prowizji]
-	B -> 126
-	127 [label=skierowaniu]
-	E -> 127
-	128 [label="bezpłatny"]
-	D -> 128
-	129 [label=skierowanie]
-	E -> 129
-	130 [label="kontynuować"]
-	D -> 130
-	131 [label=lekarzom]
+	124 [label=wyciekiem]
+	C -> 124
+	125 [label=prowizji]
+	B -> 125
+	126 [label=skierowaniu]
+	E -> 126
+	127 [label="bezpłatny"]
+	D -> 127
+	128 [label=skierowanie]
+	E -> 128
+	129 [label="kontynuować"]
+	D -> 129
+	130 [label=lekarzom]
+	E -> 130
+	131 [label=podstawy]
 	E -> 131
-	132 [label=podstawy]
-	E -> 132
-	133 [label="urlopów"]
-	D -> 133
-	134 [label=ochronnych]
-	E -> 134
-	135 [label=biura]
-	B -> 135
-	136 [label=farmaceutyczne]
-	C -> 136
-	137 [label="wyjść"]
-	H -> 137
-	138 [label="sądowej"]
-	A -> 138
-	139 [label=prezes]
+	132 [label="urlopów"]
+	D -> 132
+	133 [label=ochronnych]
+	E -> 133
+	134 [label=biura]
+	B -> 134
+	135 [label=farmaceutyczne]
+	C -> 135
+	136 [label="wyjść"]
+	H -> 136
+	137 [label="sądowej"]
+	A -> 137
+	138 [label=prezes]
+	E -> 138
+	139 [label=podmiot]
 	E -> 139
-	140 [label=podmiot]
-	E -> 140
-	141 [label="zakaźnym"]
-	A -> 141
-	D -> 141
-	142 [label=koronawirusa]
+	140 [label="zakaźnym"]
+	A -> 140
+	D -> 140
+	141 [label=koronawirusa]
+	E -> 141
+	142 [label=jednym]
 	E -> 142
-	143 [label=jednym]
-	E -> 143
-	144 [label="pielęgniarek"]
-	I -> 144
-	145 [label="ogólnodostępna"]
-	C -> 145
-	146 [label="stażu"]
-	E -> 146
-	147 [label=limit]
+	143 [label="pielęgniarek"]
+	I -> 143
+	144 [label="ogólnodostępna"]
+	C -> 144
+	145 [label="stażu"]
+	E -> 145
+	146 [label=limit]
+	D -> 146
+	147 [label=uchylenie]
 	D -> 147
-	148 [label=uchylenie]
+	148 [label=niewykorzystany]
 	D -> 148
-	149 [label=niewykorzystany]
+	149 [label="świadczenie"]
 	D -> 149
-	150 [label="świadczenie"]
-	D -> 150
+	E -> 149
+	150 [label="pojechać"]
 	E -> 150
-	151 [label="pojechać"]
+	151 [label=stanu]
 	E -> 151
-	152 [label=stanu]
-	E -> 152
-	153 [label="oddział"]
-	I -> 153
-	154 [label=informowania]
-	E -> 154
-	155 [label=skutek]
-	A -> 155
-	156 [label=pacjentce]
-	E -> 156
-	157 [label="skuteczność"]
-	D -> 157
-	158 [label=tarczy]
-	E -> 158
-	159 [label="opieką"]
-	D -> 159
-	160 [label=lekarzem]
-	E -> 160
-	161 [label=miejscach]
-	D -> 161
-	162 [label=sytuacja]
-	C -> 162
-	I -> 162
-	163 [label=wojewoda]
+	152 [label="oddział"]
+	I -> 152
+	153 [label=informowania]
+	E -> 153
+	154 [label=skutek]
+	A -> 154
+	155 [label=pacjentce]
+	E -> 155
+	156 [label="skuteczność"]
+	D -> 156
+	157 [label=tarczy]
+	E -> 157
+	158 [label="opieką"]
+	D -> 158
+	159 [label=lekarzem]
+	E -> 159
+	160 [label=miejscach]
+	D -> 160
+	161 [label="zostać"]
+	C -> 161
+	I -> 161
+	162 [label=wojewoda]
+	E -> 162
+	163 [label=wojewody]
 	E -> 163
-	164 [label=wojewody]
+	164 [label=kwarantannie]
 	E -> 164
-	165 [label=kwarantannie]
-	E -> 165
-	166 [label="wysłać"]
-	D -> 166
-	167 [label="kwarantannę"]
+	165 [label="wysłać"]
+	D -> 165
+	166 [label="kwarantannę"]
+	E -> 166
+	167 [label="zaległych"]
+	D -> 167
 	E -> 167
 	168 [label="opłacania"]
 	E -> 168
@@ -369,361 +367,362 @@ digraph IUI {
 	E -> 170
 	171 [label=program]
 	E -> 171
-	172 [label="wypełnia"]
-	I -> 172
-	173 [label="zaświadczenie"]
-	E -> 173
-	174 [label=przestoju]
-	D -> 174
-	175 [label=zwalczaniu]
-	I -> 175
-	176 [label=stopnia]
-	D -> 176
-	177 [label="zgodzić"]
+	172 [label="napisać"]
+	A -> 172
+	C -> 172
+	173 [label="wypełnia"]
+	I -> 173
+	174 [label="zaświadczenie"]
+	E -> 174
+	175 [label=przestoju]
+	D -> 175
+	176 [label=zwalczaniu]
+	I -> 176
+	177 [label=stopnia]
 	D -> 177
-	178 [label=certyfikat]
-	E -> 178
-	179 [label="godzinną"]
+	178 [label="zgodzić"]
+	D -> 178
+	179 [label=certyfikat]
 	E -> 179
-	180 [label=sanepid]
+	180 [label="godzinną"]
 	E -> 180
-	181 [label="ograniczeń"]
+	181 [label=sanepid]
 	E -> 181
-	182 [label=wykonanie]
+	182 [label="ograniczeń"]
 	E -> 182
-	183 [label="oddziałach"]
+	183 [label=wykonanie]
 	E -> 183
-	184 [label=pracownicy]
-	D -> 184
-	185 [label="wydłuża"]
-	E -> 185
-	186 [label=narodowym]
+	184 [label="oddziałach"]
+	E -> 184
+	185 [label=pracownicy]
+	D -> 185
+	186 [label="wydłuża"]
 	E -> 186
-	187 [label=programu]
+	187 [label=narodowym]
 	E -> 187
-	188 [label=osoba]
-	G -> 188
-	189 [label=pracach]
-	D -> 189
-	190 [label="dyżur"]
-	E -> 190
-	191 [label=porozumienie]
-	D -> 191
-	192 [label=maseczek]
-	E -> 192
-	193 [label=budowy]
-	B -> 193
-	194 [label="dostarczyć"]
-	D -> 194
-	195 [label="wiadomości"]
-	B -> 195
-	196 [label="być"]
-	E -> 196
-	197 [label=dostarczenia]
-	D -> 197
-	198 [label=znieczulenia]
+	188 [label=programu]
+	E -> 188
+	189 [label=osoba]
+	G -> 189
+	190 [label=pracach]
+	D -> 190
+	191 [label="dyżur"]
+	E -> 191
+	192 [label=porozumienie]
+	D -> 192
+	193 [label=maseczek]
+	E -> 193
+	194 [label=budowy]
+	B -> 194
+	195 [label="dostarczyć"]
+	D -> 195
+	196 [label="wprowadzić"]
+	D -> 196
+	197 [label="wiadomości"]
+	B -> 197
+	198 [label="być"]
 	E -> 198
-	199 [label=kontaktu]
-	E -> 199
-	200 [label="przyjmować"]
+	199 [label=dostarczenia]
+	D -> 199
+	200 [label=znieczulenia]
 	E -> 200
-	201 [label=udziela]
+	201 [label=kontaktu]
 	E -> 201
-	202 [label=konflikt]
+	202 [label="przyjmować"]
 	E -> 202
-	203 [label="kwarantanną"]
+	203 [label=udziela]
 	E -> 203
-	204 [label=zapobieganiu]
-	I -> 204
-	205 [label="postąpić"]
+	204 [label=konflikt]
+	E -> 204
+	205 [label="kwarantanną"]
 	E -> 205
-	206 [label=wymiaru]
-	D -> 206
-	207 [label=jednostki]
+	206 [label=zapobieganiu]
+	I -> 206
+	207 [label="postąpić"]
 	E -> 207
-	208 [label="wypłacać"]
-	E -> 208
-	209 [label=wskazanej]
+	208 [label=wymiaru]
+	D -> 208
+	209 [label=jednostki]
 	E -> 209
-	210 [label="przeznaczyć"]
+	210 [label="wypłacać"]
 	E -> 210
-	211 [label=dofinansowanie]
+	211 [label=wskazanej]
 	E -> 211
-	212 [label="zewnątrz"]
-	A -> 212
-	213 [label=parlamentu]
-	A -> 213
-	B -> 213
-	D -> 213
+	212 [label="przeznaczyć"]
+	E -> 212
+	213 [label=dofinansowanie]
 	E -> 213
-	214 [label="zostać"]
-	C -> 214
-	215 [label=kierownik]
+	214 [label="zewnątrz"]
+	A -> 214
+	215 [label=parlamentu]
+	A -> 215
+	B -> 215
+	D -> 215
 	E -> 215
-	216 [label=zapewnienie]
-	D -> 216
-	217 [label="sąd"]
-	I -> 217
-	218 [label="spełnia"]
-	E -> 218
-	219 [label="cofnąć"]
+	216 [label=kierownik]
+	E -> 216
+	217 [label=zapewnienie]
+	D -> 217
+	218 [label="sąd"]
+	I -> 218
+	219 [label="spełnia"]
 	E -> 219
-	220 [label="posłać"]
+	220 [label="cofnąć"]
 	E -> 220
-	221 [label=zasadniczego]
+	221 [label="posłać"]
 	E -> 221
-	222 [label=przetwarzaniem]
-	A -> 222
-	223 [label="spadkową"]
+	222 [label=zasadniczego]
+	E -> 222
+	223 [label=przetwarzaniem]
 	A -> 223
-	224 [label=pracownikom]
-	E -> 224
-	225 [label=zgonu]
+	224 [label="spadkową"]
+	A -> 224
+	225 [label=pracownikom]
 	E -> 225
-	226 [label=grudnia]
-	D -> 226
-	227 [label="sądzie"]
-	A -> 227
-	228 [label="własność"]
+	226 [label=zgonu]
+	E -> 226
+	227 [label=grudnia]
+	D -> 227
+	228 [label="sądzie"]
 	A -> 228
-	229 [label=przyznanie]
-	E -> 229
-	230 [label="przedłużony"]
-	D -> 230
-	231 [label=skierowany]
-	E -> 231
-	232 [label=ubiegania]
+	229 [label="własność"]
+	A -> 229
+	230 [label=przyznanie]
+	E -> 230
+	231 [label="przedłużony"]
+	D -> 231
+	232 [label=skierowany]
 	E -> 232
-	233 [label="będąca"]
+	233 [label=ubiegania]
 	E -> 233
-	234 [label="wynajmujący"]
-	A -> 234
-	235 [label="przebywać"]
-	E -> 235
-	236 [label=poradni]
+	234 [label="będąca"]
+	E -> 234
+	235 [label="wynajmujący"]
+	A -> 235
+	236 [label="przebywać"]
 	E -> 236
-	237 [label="ponosić"]
+	237 [label=poradni]
 	E -> 237
-	238 [label=wprowadzenie]
-	A -> 238
-	239 [label=ankiety]
-	E -> 239
-	240 [label=podatkowa]
-	G -> 240
-	241 [label=dodatkowych]
-	E -> 241
-	242 [label="zamknąć"]
+	238 [label="ponosić"]
+	E -> 238
+	239 [label=wprowadzenie]
+	A -> 239
+	240 [label=ankiety]
+	E -> 240
+	241 [label=podatkowa]
+	G -> 241
+	242 [label=dodatkowych]
 	E -> 242
-	243 [label=podejrzenie]
+	243 [label="zamknąć"]
 	E -> 243
-	244 [label=dokumentacja]
+	244 [label=podejrzenie]
 	E -> 244
-	245 [label="budowę"]
-	B -> 245
-	246 [label=sanitarnego]
-	E -> 246
-	247 [label=urlopu]
+	245 [label=dokumentacja]
+	E -> 245
+	246 [label="budowę"]
+	B -> 246
+	247 [label=sanitarnego]
 	E -> 247
-	248 [label=internecie]
-	B -> 248
-	249 [label="przesłanki"]
-	E -> 249
-	250 [label=krewnej]
-	A -> 250
-	251 [label="prowadząca"]
-	D -> 251
-	E -> 251
-	252 [label="zakażeniem"]
+	248 [label=urlopu]
+	E -> 248
+	249 [label=internecie]
+	B -> 249
+	250 [label="przesłanki"]
+	E -> 250
+	251 [label=krewnej]
+	A -> 251
+	252 [label="prowadząca"]
+	D -> 252
 	E -> 252
-	253 [label="wyjątki"]
+	253 [label="zakażeniem"]
 	E -> 253
-	254 [label="wspólnej"]
-	A -> 254
-	255 [label="sądowych"]
+	254 [label="wyjątki"]
+	E -> 254
+	255 [label="wspólnej"]
 	A -> 255
-	256 [label="służebności"]
+	256 [label="sądowych"]
 	A -> 256
-	257 [label=propozycje]
+	257 [label="służebności"]
 	A -> 257
-	258 [label="epidemią"]
-	E -> 258
-	259 [label="skrócić"]
-	D -> 259
-	260 [label=wyniku]
-	E -> 260
-	261 [label="powołać"]
+	258 [label=propozycje]
+	A -> 258
+	259 [label="epidemią"]
+	E -> 259
+	260 [label="skrócić"]
+	D -> 260
+	261 [label=wyniku]
 	E -> 261
-	262 [label=zaprzestania]
-	D -> 262
-	263 [label="dyżurowania"]
-	E -> 263
-	264 [label=okresowe]
-	D -> 264
-	265 [label="maszynistów"]
+	262 [label="powołać"]
+	E -> 262
+	263 [label=zaprzestania]
+	D -> 263
+	264 [label="dyżurowania"]
+	E -> 264
+	265 [label=okresowe]
 	D -> 265
-	266 [label=zasiedzenia]
-	A -> 266
-	267 [label=wezwaniem]
-	I -> 267
-	268 [label=porozumieniem]
-	D -> 268
-	269 [label=zestawienia]
-	C -> 269
-	270 [label="związku"]
-	G -> 270
-	271 [label=zapotrzebowanie]
-	C -> 271
-	272 [label=salonie]
-	B -> 272
-	273 [label="rozmowę"]
-	I -> 273
-	274 [label=zaliczki]
-	A -> 274
-	275 [label="datą"]
-	E -> 275
-	276 [label="przesłuchania"]
-	I -> 276
-	277 [label="wezwać"]
-	D -> 277
-	278 [label="dóbr"]
-	B -> 278
-	279 [label=apteka]
-	G -> 279
-	280 [label="przebywając"]
-	D -> 280
-	281 [label=ceny]
-	E -> 281
-	282 [label=gminie]
-	B -> 282
-	283 [label=refundacja]
-	C -> 283
-	284 [label="pobierać"]
-	A -> 284
-	285 [label=spadkowe]
+	266 [label="maszynistów"]
+	D -> 266
+	267 [label=zasiedzenia]
+	A -> 267
+	268 [label=wezwaniem]
+	I -> 268
+	269 [label=porozumieniem]
+	D -> 269
+	270 [label=zestawienia]
+	C -> 270
+	271 [label="związku"]
+	G -> 271
+	272 [label=zapotrzebowanie]
+	C -> 272
+	273 [label=salonie]
+	B -> 273
+	274 [label="rozmowę"]
+	I -> 274
+	275 [label=zaliczki]
+	A -> 275
+	276 [label="datą"]
+	E -> 276
+	277 [label="przesłuchania"]
+	I -> 277
+	278 [label="wezwać"]
+	D -> 278
+	279 [label="dóbr"]
+	B -> 279
+	280 [label=apteka]
+	G -> 280
+	281 [label="przebywając"]
+	D -> 281
+	282 [label=ceny]
+	E -> 282
+	283 [label=gminie]
+	B -> 283
+	284 [label=refundacja]
+	C -> 284
+	285 [label="pobierać"]
 	A -> 285
-	286 [label="ciągu"]
-	E -> 286
-	287 [label="wpływają"]
-	B -> 287
-	288 [label=pacjentowi]
-	E -> 288
-	289 [label="odurzające"]
-	C -> 289
-	290 [label=konto]
-	A -> 290
-	291 [label="wolności"]
-	I -> 291
-	292 [label=podmiotem]
-	E -> 292
-	293 [label=szkoleniowego]
-	D -> 293
-	294 [label="teściowa"]
-	A -> 294
-	295 [label="kreują"]
-	E -> 295
-	296 [label=stawiennictwo]
-	I -> 296
-	297 [label="muszą"]
-	E -> 297
-	298 [label=potrzebuje]
-	A -> 298
-	299 [label="obejmować"]
-	E -> 299
-	300 [label="stosować"]
+	286 [label=spadkowe]
+	A -> 286
+	287 [label="ciągu"]
+	E -> 287
+	288 [label="wpływają"]
+	B -> 288
+	289 [label=pacjentowi]
+	E -> 289
+	290 [label="odurzające"]
+	C -> 290
+	291 [label=konto]
+	A -> 291
+	292 [label="wolności"]
+	I -> 292
+	293 [label=podmiotem]
+	E -> 293
+	294 [label=szkoleniowego]
+	D -> 294
+	295 [label="teściowa"]
+	A -> 295
+	296 [label="kreują"]
+	E -> 296
+	297 [label=stawiennictwo]
+	I -> 297
+	298 [label="muszą"]
+	E -> 298
+	299 [label=potrzebuje]
+	A -> 299
+	300 [label="obejmować"]
 	E -> 300
-	301 [label="zarząd"]
-	A -> 301
-	302 [label=walki]
-	D -> 302
-	303 [label=wniesienie]
-	I -> 303
-	304 [label="zapłacić"]
-	E -> 304
-	305 [label="podlegają"]
-	B -> 305
-	306 [label="zaległego"]
-	D -> 306
-	307 [label=dokonanie]
-	A -> 307
-	308 [label="epidemiologiczną"]
-	E -> 308
-	309 [label=nowy]
-	A -> 309
-	D -> 309
+	301 [label="stosować"]
+	E -> 301
+	302 [label="zarząd"]
+	A -> 302
+	303 [label=walki]
+	D -> 303
+	304 [label=wniesienie]
+	I -> 304
+	305 [label="zapłacić"]
+	E -> 305
+	306 [label="podlegają"]
+	B -> 306
+	307 [label="zaległego"]
+	D -> 307
+	308 [label=dokonanie]
+	A -> 308
+	309 [label="epidemiologiczną"]
 	E -> 309
-	310 [label="właściciela"]
+	310 [label=nowy]
 	A -> 310
-	311 [label="współwłasności"]
+	D -> 310
+	E -> 310
+	311 [label="właściciela"]
 	A -> 311
-	312 [label="całą"]
-	E -> 312
-	313 [label=podpisaniu]
+	312 [label="współwłasności"]
+	A -> 312
+	313 [label="całą"]
 	E -> 313
-	314 [label="zakończyć"]
-	D -> 314
-	315 [label=prace]
+	314 [label=podpisaniu]
+	E -> 314
+	315 [label="zakończyć"]
 	D -> 315
-	316 [label="wątpliwości"]
-	E -> 316
-	317 [label=testy]
-	C -> 317
-	318 [label=suplementy]
+	316 [label=prace]
+	D -> 316
+	317 [label="wątpliwości"]
+	E -> 317
+	318 [label=testy]
 	C -> 318
-	319 [label="nieobecność"]
-	A -> 319
-	320 [label="żądanej"]
-	E -> 320
-	321 [label=ubezpieczycielowi]
+	319 [label=suplementy]
+	C -> 319
+	320 [label="nieobecność"]
+	A -> 320
+	321 [label="żądanej"]
 	E -> 321
-	322 [label="udziałów"]
-	A -> 322
-	323 [label=rzecznik]
-	E -> 323
-	324 [label="podziału"]
-	A -> 324
-	325 [label="nałożenia"]
-	D -> 325
-	326 [label="majątkiem"]
-	A -> 326
-	327 [label=przewidzianym]
-	D -> 327
-	328 [label="porządkowej"]
+	322 [label=ubezpieczycielowi]
+	E -> 322
+	323 [label="udziałów"]
+	A -> 323
+	324 [label=rzecznik]
+	E -> 324
+	325 [label="podziału"]
+	A -> 325
+	326 [label="nałożenia"]
+	D -> 326
+	327 [label="majątkiem"]
+	A -> 327
+	328 [label=przewidzianym]
 	D -> 328
-	329 [label=stosunek]
+	329 [label="porządkowej"]
 	D -> 329
-	330 [label="usunięcia"]
-	B -> 330
-	331 [label=zachowek]
-	A -> 331
-	332 [label=darowizny]
+	330 [label=stosunek]
+	D -> 330
+	331 [label="usunięcia"]
+	B -> 331
+	332 [label=zachowek]
 	A -> 332
-	333 [label="liczyć"]
-	C -> 333
-	D -> 333
-	334 [label="długów"]
-	A -> 334
-	335 [label=numeru]
-	E -> 335
-	336 [label=niezgodne]
-	B -> 336
-	337 [label=funkcjonuje]
-	E -> 337
-	338 [label="piśmie"]
+	333 [label=darowizny]
+	A -> 333
+	334 [label="liczyć"]
+	C -> 334
+	D -> 334
+	335 [label="długów"]
+	A -> 335
+	336 [label=numeru]
+	E -> 336
+	337 [label=niezgodne]
+	B -> 337
+	338 [label=funkcjonuje]
 	E -> 338
-	339 [label="funkcję"]
-	C -> 339
-	340 [label=zmian]
-	E -> 340
-	341 [label=sama]
-	B -> 341
-	342 [label="zdjęcia"]
-	A -> 342
-	343 [label="skierować"]
-	E -> 343
-	344 [label=sprzedawcy]
-	B -> 344
-	345 [label="wartość"]
-	A -> 345
+	339 [label="piśmie"]
+	E -> 339
+	340 [label="funkcję"]
+	C -> 340
+	341 [label=zmian]
+	E -> 341
+	342 [label=sama]
+	B -> 342
+	343 [label="zdjęcia"]
+	A -> 343
+	344 [label="skierować"]
+	E -> 344
+	345 [label=sprzedawcy]
+	B -> 345
 	346 [label=szczepienie]
 	E -> 346
 	347 [label="dokumentacją"]
@@ -750,101 +749,100 @@ digraph IUI {
 	E -> 357
 	358 [label=lecznicze]
 	C -> 358
-	359 [label=organom]
-	B -> 359
-	I -> 359
-	360 [label=kontraktu]
-	G -> 360
-	361 [label=dane]
-	E -> 361
-	362 [label=ponoszenia]
-	A -> 362
-	363 [label=wymaganych]
-	E -> 363
-	364 [label=ogrodzenie]
-	A -> 364
-	365 [label=refundacji]
+	359 [label=kontraktu]
+	G -> 359
+	360 [label=dane]
+	E -> 360
+	361 [label=ponoszenia]
+	A -> 361
+	362 [label=wymaganych]
+	E -> 362
+	363 [label=ogrodzenie]
+	A -> 363
+	364 [label=refundacji]
+	C -> 364
+	365 [label=aptek]
 	C -> 365
-	366 [label=aptek]
-	C -> 366
-	367 [label=zatrudnionym]
-	D -> 367
-	368 [label=najemca]
-	A -> 368
-	369 [label="fakturę"]
+	366 [label=zatrudnionym]
+	D -> 366
+	367 [label=najemca]
+	A -> 367
+	368 [label="fakturę"]
+	G -> 368
+	369 [label="rozliczać"]
 	G -> 369
-	370 [label="rozliczać"]
-	G -> 370
-	371 [label=kwot]
-	A -> 371
-	372 [label=przyjmowania]
-	E -> 372
-	373 [label="zamontować"]
+	370 [label=kwot]
+	A -> 370
+	371 [label=przyjmowania]
+	E -> 371
+	372 [label="zamontować"]
+	B -> 372
+	373 [label="żołnierz"]
+	A -> 373
 	B -> 373
-	374 [label="żołnierz"]
-	A -> 374
-	B -> 374
-	375 [label=odbyciu]
-	C -> 375
-	376 [label="spłaty"]
-	A -> 376
-	377 [label="zawiesić"]
+	374 [label=odbyciu]
+	C -> 374
+	375 [label="spłaty"]
+	A -> 375
+	376 [label="zawiesić"]
+	E -> 376
+	377 [label="oddawać"]
 	E -> 377
-	378 [label="oddawać"]
-	E -> 378
-	379 [label=likwidacji]
-	A -> 379
-	380 [label="udostępnianie"]
+	378 [label=likwidacji]
+	A -> 378
+	379 [label="udostępnianie"]
+	B -> 379
+	380 [label=organ]
 	B -> 380
-	381 [label=organ]
-	B -> 381
-	382 [label=faktyczny]
-	I -> 382
-	383 [label=uda]
-	E -> 383
-	384 [label=rodzicielskim]
-	D -> 384
-	385 [label=zakupiony]
-	B -> 385
-	386 [label="dotyczącego"]
-	A -> 386
-	387 [label="receptę"]
-	C -> 387
-	388 [label="polisę"]
-	E -> 388
+	381 [label=faktyczny]
+	I -> 381
+	382 [label=uda]
+	E -> 382
+	383 [label=rodzicielskim]
+	D -> 383
+	384 [label=zakupiony]
+	B -> 384
+	385 [label="dotyczącego"]
+	A -> 385
+	386 [label="receptę"]
+	C -> 386
+	387 [label="polisę"]
+	E -> 387
+	I -> 387
+	388 [label="środki"]
 	I -> 388
-	389 [label="środki"]
-	I -> 389
-	390 [label="przysługującego"]
-	D -> 390
-	391 [label="zaistniałych"]
-	E -> 391
-	392 [label=budowlane]
-	B -> 392
-	393 [label=wykonania]
+	389 [label="przysługującego"]
+	D -> 389
+	390 [label="zaistniałych"]
+	E -> 390
+	391 [label=budowlane]
+	B -> 391
+	392 [label=wykonania]
+	E -> 392
+	393 [label=bezobjawowy]
+	B -> 393
 	E -> 393
-	394 [label=bezobjawowy]
-	B -> 394
+	394 [label=elementy]
+	A -> 394
 	E -> 394
-	395 [label=elementy]
-	A -> 395
-	E -> 395
-	396 [label=punktu]
-	C -> 396
-	397 [label="podawać"]
-	E -> 397
-	398 [label=komunikat]
-	B -> 398
-	399 [label=leczniczej]
-	E -> 399
-	400 [label=mandatem]
+	395 [label=punktu]
+	C -> 395
+	396 [label="podawać"]
+	E -> 396
+	397 [label=komunikat]
+	B -> 397
+	398 [label=leczniczej]
+	E -> 398
+	399 [label=mandatem]
+	A -> 399
+	400 [label=umorzenie]
 	A -> 400
-	401 [label=umorzenie]
+	401 [label=testament]
 	A -> 401
-	402 [label=testament]
-	A -> 402
-	403 [label="przyjść"]
-	E -> 403
+	402 [label="przyjść"]
+	E -> 402
+	403 [label=prac]
+	A -> 403
 	404 [label=stawienia]
 	E -> 404
 	405 [label="dyżuru"]
@@ -878,182 +876,183 @@ digraph IUI {
 	D -> 418
 	419 [label="przedłużyć"]
 	E -> 419
-	420 [label=dojazdowej]
-	B -> 420
-	421 [label=karmienie]
-	D -> 421
-	422 [label=seniora]
+	420 [label=karmienie]
+	D -> 420
+	421 [label=seniora]
+	I -> 421
+	422 [label=nosa]
 	I -> 422
-	423 [label=nosa]
-	I -> 423
-	424 [label="księgi"]
-	A -> 424
-	425 [label=klauzuli]
+	423 [label="księgi"]
+	A -> 423
+	424 [label=klauzuli]
+	E -> 424
+	425 [label="wysokości"]
 	E -> 425
-	426 [label="wysokości"]
+	426 [label=roszczeniami]
 	E -> 426
-	427 [label=roszczeniami]
-	E -> 427
-	428 [label="własności"]
-	A -> 428
-	429 [label=zaniedbanie]
-	E -> 429
-	430 [label="znajdujące"]
-	A -> 430
-	431 [label=dodatkowy]
-	D -> 431
-	432 [label=wizyty]
-	I -> 432
-	433 [label=raz]
+	427 [label="własności"]
+	A -> 427
+	428 [label=zaniedbanie]
+	E -> 428
+	429 [label="znajdujące"]
+	A -> 429
+	430 [label=dodatkowy]
+	D -> 430
+	431 [label=wizyty]
+	I -> 431
+	432 [label=raz]
+	D -> 432
+	433 [label="odmówi"]
 	D -> 433
-	434 [label="odmówi"]
-	D -> 434
+	E -> 433
+	434 [label="pełnić"]
 	E -> 434
-	435 [label="pełnić"]
-	E -> 435
-	436 [label="zmianę"]
-	D -> 436
-	437 [label="decyzją"]
-	E -> 437
-	438 [label="niepełnym"]
+	435 [label="zmianę"]
+	D -> 435
+	436 [label="decyzją"]
+	E -> 436
+	437 [label="niepełnym"]
+	C -> 437
+	D -> 437
+	438 [label="datę"]
+	A -> 438
 	C -> 438
-	D -> 438
-	439 [label=blistrze]
-	A -> 439
-	C -> 439
-	E -> 439
-	440 [label="życia"]
-	I -> 440
-	441 [label=eksmisji]
-	A -> 441
-	442 [label=odbycia]
+	E -> 438
+	439 [label="życia"]
+	I -> 439
+	440 [label=eksmisji]
+	A -> 440
+	441 [label=odbycia]
+	E -> 441
+	442 [label=pisemnej]
 	E -> 442
-	443 [label=pisemnej]
-	E -> 443
-	444 [label="użytkowego"]
-	A -> 444
-	445 [label=samodzielnego]
-	E -> 445
-	446 [label="pełnomocnictwo"]
-	A -> 446
-	447 [label="umiejętnościami"]
-	I -> 447
-	448 [label=wychowawczym]
-	D -> 448
-	449 [label=zainstalowania]
-	E -> 449
-	450 [label="złożone"]
+	443 [label="użytkowego"]
+	A -> 443
+	444 [label=samodzielnego]
+	E -> 444
+	445 [label="pełnomocnictwo"]
+	A -> 445
+	446 [label="umiejętnościami"]
+	I -> 446
+	447 [label=wychowawczym]
+	D -> 447
+	448 [label=zainstalowania]
+	E -> 448
+	449 [label="złożone"]
+	D -> 449
+	450 [label=narusza]
 	D -> 450
-	451 [label=narusza]
-	D -> 451
-	452 [label="zatrudniać"]
+	451 [label="zatrudniać"]
+	E -> 451
+	452 [label="towarzyszące"]
 	E -> 452
-	453 [label="towarzyszące"]
+	453 [label=niewykorzystane]
 	E -> 453
-	454 [label=niewykorzystane]
+	454 [label=odbywa]
 	E -> 454
-	455 [label=odbywa]
-	E -> 455
-	456 [label="reklamację"]
-	C -> 456
-	457 [label=ochronie]
-	B -> 457
-	458 [label="uchwałę"]
-	A -> 458
-	459 [label=rozliczenie]
-	E -> 459
-	460 [label="odrzucić"]
-	A -> 460
-	461 [label=wychowuje]
-	C -> 461
+	455 [label="reklamację"]
+	C -> 455
+	456 [label=ochronie]
+	B -> 456
+	457 [label="uchwałę"]
+	A -> 457
+	458 [label=rozliczenie]
+	E -> 458
+	459 [label="odrzucić"]
+	A -> 459
+	460 [label=wychowuje]
+	C -> 460
+	E -> 460
+	461 [label="praktyką"]
 	E -> 461
-	462 [label="praktyką"]
-	E -> 462
-	463 [label=otrzymanym]
-	I -> 463
-	464 [label=familiae]
-	C -> 464
-	465 [label="związany"]
+	462 [label=otrzymanym]
+	I -> 462
+	463 [label=familiae]
+	C -> 463
+	464 [label="związany"]
+	E -> 464
+	465 [label=covidowy]
 	E -> 465
-	466 [label=covidowy]
-	E -> 466
-	467 [label=kolejne]
-	A -> 467
-	468 [label="odmowę"]
-	C -> 468
-	469 [label=choroby]
-	I -> 469
-	470 [label=elewacji]
+	466 [label=kolejne]
+	A -> 466
+	467 [label="odmowę"]
+	C -> 467
+	468 [label=choroby]
+	I -> 468
+	469 [label=elewacji]
+	B -> 469
+	470 [label=konserwatora]
 	B -> 470
-	471 [label=konserwatora]
+	471 [label=salon]
 	B -> 471
-	472 [label=salon]
+	472 [label=pisemne]
 	B -> 472
-	473 [label=pisemne]
-	B -> 473
-	474 [label=jednoosobowej]
-	C -> 474
-	475 [label="stawkę"]
-	E -> 475
-	476 [label=pozwolenia]
-	B -> 476
-	477 [label=remontu]
-	A -> 477
-	E -> 477
-	478 [label=opinie]
-	B -> 478
-	479 [label="seniorów"]
-	C -> 479
-	480 [label=chorych]
+	473 [label=jednoosobowej]
+	C -> 473
+	474 [label="stawkę"]
+	E -> 474
+	475 [label=pozwolenia]
+	B -> 475
+	476 [label=remontu]
+	A -> 476
+	E -> 476
+	477 [label=opinie]
+	B -> 477
+	478 [label="seniorów"]
+	C -> 478
+	479 [label=chorych]
+	E -> 479
+	480 [label="szkodę"]
 	E -> 480
-	481 [label="szkodę"]
+	481 [label="służbowe"]
 	E -> 481
-	482 [label="służbowe"]
-	E -> 482
-	483 [label="okolicznościach"]
-	I -> 483
-	484 [label=emeryturze]
-	G -> 484
-	485 [label=prywatnym]
-	E -> 485
-	486 [label=pozew]
-	A -> 486
-	487 [label=wykonywaniu]
-	C -> 487
-	488 [label=kwarantanny]
-	I -> 488
-	489 [label=zasiedzenie]
+	482 [label="okolicznościach"]
+	I -> 482
+	483 [label=emeryturze]
+	G -> 483
+	484 [label=prywatnym]
+	E -> 484
+	485 [label=pozew]
+	A -> 485
+	486 [label=wykonywaniu]
+	C -> 486
+	487 [label=kwarantanny]
+	I -> 487
+	488 [label=zasiedzenie]
+	A -> 488
+	489 [label="listę"]
 	A -> 489
-	490 [label="listę"]
-	A -> 490
-	491 [label=formy]
+	490 [label=formy]
+	E -> 490
+	491 [label=stycznia]
+	C -> 491
 	E -> 491
-	492 [label=stycznia]
-	C -> 492
+	492 [label=wezwana]
 	E -> 492
-	493 [label=wezwana]
-	E -> 493
-	494 [label=kierownicze]
-	I -> 494
-	495 [label=kwalifikacyjne]
-	E -> 495
-	496 [label="uzasadnić"]
+	493 [label=kierownicze]
+	I -> 493
+	494 [label=kwalifikacyjne]
+	E -> 494
+	495 [label="uzasadnić"]
+	A -> 495
+	496 [label="skutkować"]
 	A -> 496
-	497 [label="skutkować"]
-	A -> 497
-	498 [label="wypłaty"]
-	E -> 498
-	I -> 498
-	499 [label="zweryfikować"]
-	C -> 499
-	500 [label=ponosi]
-	I -> 500
-	501 [label=covidowego]
+	497 [label="wypłaty"]
+	E -> 497
+	I -> 497
+	498 [label="zweryfikować"]
+	C -> 498
+	499 [label=ponosi]
+	I -> 499
+	500 [label=covidowego]
+	E -> 500
+	501 [label=oddelegowaniem]
 	E -> 501
-	502 [label=oddelegowaniem]
-	E -> 502
-	503 [label="odpowiedzialną"]
+	502 [label="odpowiedzialną"]
+	C -> 502
+	503 [label=substancji]
 	C -> 503
+	E -> 503
 	504 [label="zakażonych"]
 	E -> 504
 	505 [label="zawnioskować"]
@@ -1279,187 +1278,187 @@ digraph IUI {
 	E -> 611
 	612 [label="dzierżawy"]
 	A -> 612
-	613 [label=podejrzanego]
-	I -> 613
-	614 [label="potrącenie"]
-	C -> 614
-	615 [label=nieprawdziwego]
-	I -> 615
-	616 [label=zgadza]
-	A -> 616
-	617 [label=mobbingu]
-	D -> 617
-	618 [label="rozwiązanie"]
-	E -> 618
-	619 [label="mieszkań"]
-	A -> 619
-	620 [label=zastosowanie]
-	D -> 620
-	621 [label="możliwym"]
-	A -> 621
-	622 [label=rolnej]
-	B -> 622
-	623 [label=wezwaniu]
-	A -> 623
-	624 [label="dziedziczyć"]
+	613 [label=farmaceutycznej]
+	C -> 613
+	D -> 613
+	614 [label=podejrzanego]
+	I -> 614
+	615 [label="potrącenie"]
+	C -> 615
+	616 [label=nieprawdziwego]
+	I -> 616
+	617 [label=zgadza]
+	A -> 617
+	618 [label=mobbingu]
+	D -> 618
+	619 [label="rozwiązanie"]
+	E -> 619
+	620 [label="mieszkań"]
+	A -> 620
+	621 [label=zastosowanie]
+	D -> 621
+	622 [label="możliwym"]
+	A -> 622
+	623 [label=rolnej]
+	B -> 623
+	624 [label=wezwaniu]
 	A -> 624
-	625 [label=wolnego]
-	D -> 625
-	E -> 625
-	626 [label=znowelizowane]
-	E -> 626
-	627 [label=organizator]
-	A -> 627
-	628 [label=podstawowego]
+	625 [label="dziedziczyć"]
+	A -> 625
+	626 [label="sporządzona"]
+	A -> 626
+	I -> 626
+	627 [label=wolnego]
+	D -> 627
+	E -> 627
+	628 [label=znowelizowane]
 	E -> 628
-	629 [label="pełnej"]
-	E -> 629
-	630 [label=wskazane]
+	629 [label=organizator]
+	A -> 629
+	630 [label=podstawowego]
 	E -> 630
-	631 [label="zasugerować"]
+	631 [label="pełnej"]
 	E -> 631
-	632 [label="pełnienia"]
+	632 [label=wskazane]
 	E -> 632
-	633 [label="zejścia"]
+	633 [label="zasugerować"]
 	E -> 633
-	634 [label=skierowanych]
-	D -> 634
-	635 [label=nazwiska]
-	A -> 635
-	636 [label=maksymalny]
-	B -> 636
+	634 [label="pełnienia"]
+	E -> 634
+	635 [label="zejścia"]
+	E -> 635
+	636 [label=skierowanych]
 	D -> 636
-	E -> 636
-	637 [label="ubezpieczeń"]
+	637 [label=nazwiska]
 	A -> 637
-	638 [label=udania]
+	638 [label=maksymalny]
+	B -> 638
 	D -> 638
-	639 [label=ocieplenia]
+	E -> 638
+	639 [label="ubezpieczeń"]
 	A -> 639
-	640 [label="zarządcę"]
-	A -> 640
-	641 [label=zebraniu]
+	640 [label=udania]
+	D -> 640
+	641 [label=ocieplenia]
 	A -> 641
-	642 [label="udostępnienie"]
-	B -> 642
-	643 [label=terytorium]
-	E -> 643
-	644 [label=stanowiska]
-	D -> 644
-	645 [label="przesłania"]
-	A -> 645
-	I -> 645
-	646 [label=farmaceutycznymi]
-	C -> 646
-	647 [label=opodatkowaniu]
+	642 [label="zarządcę"]
+	A -> 642
+	643 [label=zebraniu]
+	A -> 643
+	644 [label="udostępnienie"]
+	B -> 644
+	645 [label=terytorium]
+	E -> 645
+	646 [label=stanowiska]
+	D -> 646
+	647 [label="małoletnich"]
 	A -> 647
-	648 [label=kodu]
+	I -> 647
+	648 [label=farmaceutycznymi]
 	C -> 648
-	649 [label="przekształcenie"]
-	B -> 649
-	650 [label="szczepień"]
-	E -> 650
-	651 [label=pacjentem]
-	E -> 651
-	652 [label="spłacony"]
-	A -> 652
-	653 [label="ubezwłasnowolnienie"]
-	A -> 653
+	649 [label=opodatkowaniu]
+	A -> 649
+	650 [label=kodu]
+	C -> 650
+	651 [label="przekształcenie"]
+	B -> 651
+	652 [label="szczepień"]
+	E -> 652
+	653 [label=pacjentem]
 	E -> 653
-	654 [label=kierownikiem]
-	C -> 654
-	655 [label="spodziewać"]
-	E -> 655
-	656 [label=parkowania]
-	B -> 656
-	657 [label="zwolnić"]
-	I -> 657
-	658 [label="kartę"]
-	A -> 658
-	E -> 658
-	659 [label=pracowniczych]
-	D -> 659
-	660 [label="zgodę"]
-	E -> 660
-	661 [label=otwarcia]
-	C -> 661
-	662 [label=radiologa]
-	I -> 662
-	663 [label=zebrania]
-	A -> 663
-	664 [label="przepisać"]
-	C -> 664
-	665 [label=rezydent]
-	E -> 665
-	666 [label="sądowego"]
-	A -> 666
-	667 [label="wynosił"]
-	D -> 667
-	668 [label=regulamin]
+	654 [label="spłacony"]
+	A -> 654
+	655 [label=kierownikiem]
+	C -> 655
+	656 [label="spodziewać"]
+	E -> 656
+	657 [label=parkowania]
+	B -> 657
+	658 [label="zwolnić"]
+	I -> 658
+	659 [label="podjęcie"]
+	A -> 659
+	E -> 659
+	660 [label=pracowniczych]
+	D -> 660
+	661 [label="zgodę"]
+	E -> 661
+	662 [label=otwarcia]
+	C -> 662
+	663 [label=radiologa]
+	I -> 663
+	664 [label=zebrania]
+	A -> 664
+	665 [label="przepisać"]
+	C -> 665
+	666 [label=rezydent]
+	E -> 666
+	667 [label="sądowego"]
+	A -> 667
+	668 [label="wynosił"]
 	D -> 668
-	669 [label=obecnego]
+	669 [label=regulamin]
 	D -> 669
-	670 [label=pediatrii]
-	E -> 670
-	671 [label="prowadzącego"]
+	670 [label=obecnego]
+	D -> 670
+	671 [label=pediatrii]
 	E -> 671
-	672 [label=intensywnej]
+	672 [label="prowadzącego"]
 	E -> 672
-	673 [label=finansowane]
+	673 [label=intensywnej]
 	E -> 673
-	674 [label="odzyskać"]
-	I -> 674
-	675 [label="zrealizować"]
-	C -> 675
-	676 [label=r]
-	E -> 676
-	677 [label=podatku]
-	G -> 677
-	678 [label="specjalistę"]
-	E -> 678
-	679 [label=ratownik]
+	674 [label=finansowane]
+	E -> 674
+	675 [label="odzyskać"]
+	I -> 675
+	676 [label="zrealizować"]
+	C -> 676
+	677 [label=r]
+	E -> 677
+	678 [label=podatku]
+	G -> 678
+	679 [label="specjalistę"]
 	E -> 679
-	680 [label=covidowych]
+	680 [label=ratownik]
 	E -> 680
-	681 [label=szalikiem]
-	D -> 681
-	I -> 681
-	682 [label=pierwsze]
-	A -> 682
+	681 [label=covidowych]
+	E -> 681
+	682 [label=szalikiem]
 	D -> 682
-	683 [label=zwolniona]
-	G -> 683
-	684 [label="zawartą"]
-	D -> 684
-	685 [label=prowadzonego]
-	E -> 685
-	686 [label=bezrobotna]
-	D -> 686
-	687 [label=nazwisko]
-	B -> 687
-	688 [label=farmaceutyczny]
-	C -> 688
-	689 [label="miesięczny"]
-	D -> 689
-	690 [label="zapewniać"]
-	A -> 690
-	E -> 690
-	691 [label="spółkę"]
+	I -> 682
+	683 [label=pierwsze]
+	A -> 683
+	D -> 683
+	684 [label=zwolniona]
+	G -> 684
+	685 [label="zawartą"]
+	D -> 685
+	686 [label=prowadzonego]
+	E -> 686
+	687 [label=bezrobotna]
+	D -> 687
+	688 [label=nazwisko]
+	B -> 688
+	689 [label=farmaceutyczny]
+	C -> 689
+	690 [label="miesięczny"]
+	D -> 690
+	691 [label="zapewniać"]
 	A -> 691
-	692 [label="zarejestrować"]
-	B -> 692
-	693 [label=dokonane]
-	A -> 693
-	694 [label=wskazuje]
-	B -> 694
-	695 [label=zmianami]
-	A -> 695
+	E -> 691
+	692 [label="spółkę"]
+	A -> 692
+	693 [label="zarejestrować"]
+	B -> 693
+	694 [label=dokonane]
+	A -> 694
+	695 [label=wskazuje]
 	B -> 695
-	696 [label=parkingowych]
+	696 [label=prawie]
 	A -> 696
-	697 [label="zakończenia"]
-	D -> 697
-	E -> 697
+	B -> 696
+	697 [label=parkingowych]
+	A -> 697
 	698 [label=poz]
 	E -> 698
 	699 [label="pracowników"]
@@ -1510,173 +1509,176 @@ digraph IUI {
 	C -> 721
 	722 [label=papierowej]
 	G -> 722
-	723 [label="wynajmującego"]
+	723 [label=ogrodzenia]
 	A -> 723
-	724 [label=leczniczego]
-	G -> 724
-	725 [label=systemu]
-	E -> 725
-	726 [label="złożenia"]
+	B -> 723
+	724 [label="wynajmującego"]
+	A -> 724
+	725 [label=leczniczego]
+	G -> 725
+	726 [label=systemu]
 	E -> 726
-	727 [label="długi"]
-	A -> 727
-	728 [label="opłatach"]
+	727 [label="złożenia"]
+	E -> 727
+	728 [label="długi"]
 	A -> 728
-	729 [label=umiarkowanej]
-	D -> 729
-	730 [label=egzekucyjnych]
-	A -> 730
-	731 [label="internetową"]
-	C -> 731
-	732 [label=przewidzianego]
-	D -> 732
-	733 [label=warunki]
-	E -> 733
-	734 [label=przepisach]
+	729 [label="opłatach"]
+	A -> 729
+	730 [label=umiarkowanej]
+	D -> 730
+	731 [label=egzekucyjnych]
+	A -> 731
+	732 [label="internetową"]
+	C -> 732
+	733 [label=przewidzianego]
+	D -> 733
+	734 [label=warunki]
 	E -> 734
-	735 [label=dofinansowania]
+	735 [label=przepisach]
 	E -> 735
-	736 [label="formę"]
-	D -> 736
-	737 [label="korzystać"]
-	G -> 737
-	738 [label=szkolenia]
-	E -> 738
-	739 [label=etapie]
+	736 [label=dofinansowania]
+	E -> 736
+	737 [label="formę"]
+	D -> 737
+	738 [label="korzystać"]
+	G -> 738
+	739 [label=szkolenia]
 	E -> 739
-	740 [label="dział"]
-	A -> 740
-	741 [label=wskazanych]
-	C -> 741
-	E -> 741
-	742 [label=kas]
-	G -> 742
-	743 [label=dokument]
-	A -> 743
-	E -> 743
-	744 [label=zabezpieczenia]
+	740 [label=etapie]
+	E -> 740
+	741 [label="dział"]
+	A -> 741
+	742 [label=wskazanych]
+	C -> 742
+	E -> 742
+	743 [label=kas]
+	G -> 743
+	744 [label=dokument]
+	A -> 744
 	E -> 744
-	745 [label=zwolnienia]
-	G -> 745
-	746 [label="pomysłu"]
-	D -> 746
-	747 [label=receptach]
-	C -> 747
-	748 [label="zmieniającego"]
-	D -> 748
-	749 [label=zakazie]
+	745 [label=zabezpieczenia]
+	E -> 745
+	746 [label=zwolnienia]
+	G -> 746
+	747 [label="pomysłu"]
+	D -> 747
+	748 [label=receptach]
+	C -> 748
+	749 [label="zmieniającego"]
 	D -> 749
-	750 [label="standardową"]
-	G -> 750
-	751 [label="mieszkańców"]
-	A -> 751
-	752 [label="staż"]
+	750 [label=zakazie]
+	D -> 750
+	751 [label="standardową"]
+	G -> 751
+	752 [label="mieszkańców"]
 	A -> 752
-	E -> 752
-	753 [label=kwalifikowaniu]
+	753 [label="staż"]
+	A -> 753
 	E -> 753
-	754 [label=przejazdu]
-	A -> 754
-	755 [label="kształtują"]
-	I -> 755
-	756 [label=wynagrodzeniem]
-	D -> 756
-	757 [label=pomieszczenia]
-	B -> 757
-	758 [label="musiało"]
-	E -> 758
-	759 [label="poświadczonej"]
-	I -> 759
-	760 [label=odziedziczonej]
-	E -> 760
-	761 [label=organu]
+	754 [label=kwalifikowaniu]
+	E -> 754
+	755 [label=przejazdu]
+	A -> 755
+	756 [label="kształtują"]
+	I -> 756
+	757 [label=wynagrodzeniem]
+	D -> 757
+	758 [label=pomieszczenia]
+	B -> 758
+	759 [label="musiało"]
+	E -> 759
+	760 [label="poświadczonej"]
+	I -> 760
+	761 [label=odziedziczonej]
 	E -> 761
-	762 [label="pracują"]
-	D -> 762
-	763 [label="nieścisłością"]
-	A -> 763
-	764 [label="zmniejszyć"]
-	D -> 764
-	765 [label=maja]
-	D -> 765
-	766 [label=zainteresowany]
+	762 [label=organu]
+	E -> 762
+	763 [label="pracują"]
+	D -> 763
+	764 [label="nieścisłością"]
+	A -> 764
+	765 [label=koszt]
+	A -> 765
+	E -> 765
+	I -> 765
+	766 [label="zmniejszyć"]
 	D -> 766
-	767 [label="należny"]
-	A -> 767
-	768 [label=podstawa]
-	E -> 768
-	769 [label="obowiązku"]
-	G -> 769
-	770 [label="odstąpić"]
-	B -> 770
-	D -> 770
-	771 [label=dopuszczalna]
-	B -> 771
-	C -> 771
-	E -> 771
-	772 [label="świadczyć"]
-	E -> 772
-	773 [label=rodo]
+	767 [label=maja]
+	D -> 767
+	768 [label=zainteresowany]
+	D -> 768
+	769 [label="należny"]
+	A -> 769
+	770 [label=podstawa]
+	E -> 770
+	771 [label="obowiązku"]
+	G -> 771
+	772 [label="odstąpić"]
+	B -> 772
+	D -> 772
+	773 [label=dopuszczalna]
 	B -> 773
-	774 [label=trzynastki]
-	A -> 774
-	D -> 774
-	775 [label=inna]
+	C -> 773
+	E -> 773
+	774 [label="świadczyć"]
+	E -> 774
+	775 [label=rodo]
 	B -> 775
-	776 [label="przedstawiają"]
+	776 [label=trzynastki]
+	A -> 776
 	D -> 776
-	I -> 776
-	777 [label=rozprawie]
-	A -> 777
-	778 [label=jednostek]
-	C -> 778
-	779 [label="terapię"]
-	E -> 779
-	780 [label=zdrowotnego]
-	E -> 780
-	781 [label="badań"]
+	777 [label=inna]
+	B -> 777
+	778 [label=pracownika]
+	D -> 778
+	I -> 778
+	779 [label=rozprawie]
+	A -> 779
+	780 [label=jednostek]
+	C -> 780
+	781 [label="terapię"]
 	E -> 781
-	I -> 781
-	782 [label="matkę"]
-	A -> 782
-	783 [label="udostępniania"]
+	782 [label=zdrowotnego]
+	E -> 782
+	783 [label="badań"]
 	E -> 783
-	784 [label="odbywającego"]
-	E -> 784
-	785 [label=dentysty]
+	I -> 783
+	784 [label="matkę"]
+	A -> 784
+	785 [label="udostępniania"]
 	E -> 785
-	786 [label="posługiwać"]
+	786 [label="odbywającego"]
 	E -> 786
-	787 [label=chodzi]
+	787 [label=dentysty]
 	E -> 787
-	788 [label=spadek]
-	A -> 788
-	789 [label="wycofać"]
-	D -> 789
-	790 [label=maseczki]
-	I -> 790
-	791 [label="wyraził"]
-	E -> 791
-	792 [label=drodze]
-	A -> 792
-	793 [label="kosmetyków"]
-	C -> 793
-	794 [label="wyznaczyć"]
-	E -> 794
-	795 [label="wystarczająca"]
-	B -> 795
-	796 [label="postępuje"]
-	E -> 796
-	797 [label="upływie"]
+	788 [label="posługiwać"]
+	E -> 788
+	789 [label=chodzi]
+	E -> 789
+	790 [label=spadek]
+	A -> 790
+	791 [label="wycofać"]
+	D -> 791
+	792 [label=maseczki]
+	I -> 792
+	793 [label="wyraził"]
+	E -> 793
+	794 [label="kosmetyków"]
+	C -> 794
+	795 [label="wyznaczyć"]
+	E -> 795
+	796 [label="wystarczająca"]
+	B -> 796
+	797 [label="postępuje"]
 	E -> 797
-	798 [label=asystent]
+	798 [label="upływie"]
 	E -> 798
-	799 [label=hiperbarycznej]
+	799 [label=asystent]
 	E -> 799
-	800 [label=podlega]
-	G -> 800
-	801 [label=farmaceutycznej]
-	C -> 801
+	800 [label=hiperbarycznej]
+	E -> 800
+	801 [label=podlega]
+	G -> 801
 	802 [label=zawarcie]
 	D -> 802
 	803 [label=prokurator]
@@ -1705,7 +1707,7 @@ digraph IUI {
 	A -> 813
 	814 [label=sklepie]
 	C -> 814
-	815 [label=dotrzyma]
+	815 [label="wejść"]
 	A -> 815
 	B -> 815
 	D -> 815
@@ -1737,300 +1739,298 @@ digraph IUI {
 	E -> 827
 	828 [label="płatny"]
 	D -> 828
-	829 [label="zaistniałą"]
-	I -> 829
-	830 [label=starych]
-	E -> 830
-	831 [label=wzoru]
-	C -> 831
-	832 [label="sprawdzić"]
-	A -> 832
-	833 [label=granicy]
+	829 [label="zakończenia"]
+	E -> 829
+	830 [label="zaistniałą"]
+	I -> 830
+	831 [label=starych]
+	E -> 831
+	832 [label=wzoru]
+	C -> 832
+	833 [label="sprawdzić"]
 	A -> 833
-	E -> 833
-	I -> 833
-	834 [label=straci]
-	D -> 834
-	835 [label=meksyku]
-	C -> 835
-	E -> 835
-	836 [label=odpady]
+	834 [label=granicy]
+	A -> 834
+	E -> 834
+	I -> 834
+	835 [label=straci]
+	D -> 835
+	836 [label=meksyku]
 	C -> 836
-	837 [label="częściach"]
-	A -> 837
-	838 [label=papierowych]
-	C -> 838
-	E -> 838
-	G -> 838
-	839 [label="objęty"]
+	E -> 836
+	837 [label=odpady]
+	C -> 837
+	838 [label="częściach"]
+	A -> 838
+	839 [label=papierowych]
+	C -> 839
 	E -> 839
-	840 [label=architekta]
-	B -> 840
-	841 [label="używania"]
-	E -> 841
-	842 [label=dziedziczenie]
-	A -> 842
-	843 [label=praktyka]
-	E -> 843
-	844 [label="popełnienia"]
-	I -> 844
-	845 [label=pewno]
-	G -> 845
-	846 [label=osiedla]
-	A -> 846
-	847 [label=papierowe]
-	C -> 847
-	848 [label=lekarskiego]
-	I -> 848
-	849 [label=elektronicznej]
-	G -> 849
-	850 [label="wyrażone"]
+	G -> 839
+	840 [label="objęty"]
+	E -> 840
+	841 [label=architekta]
+	B -> 841
+	842 [label="używania"]
+	E -> 842
+	843 [label=dziedziczenie]
+	A -> 843
+	844 [label=praktyka]
+	E -> 844
+	845 [label="popełnienia"]
+	I -> 845
+	846 [label=pewno]
+	G -> 846
+	847 [label=osiedla]
+	A -> 847
+	848 [label=papierowe]
+	C -> 848
+	849 [label=lekarskiego]
+	I -> 849
+	850 [label=elektronicznej]
 	G -> 850
-	851 [label="dyżurach"]
-	E -> 851
-	852 [label=bhp]
-	D -> 852
-	853 [label=grozi]
-	I -> 853
-	854 [label=uiszczenia]
-	A -> 854
-	855 [label=pacjenci]
-	E -> 855
-	856 [label=ankiecie]
+	851 [label="wyrażone"]
+	G -> 851
+	852 [label="dyżurach"]
+	E -> 852
+	853 [label=bhp]
+	D -> 853
+	854 [label=grozi]
+	I -> 854
+	855 [label=uiszczenia]
+	A -> 855
+	856 [label=pacjenci]
 	E -> 856
-	857 [label=dawkowania]
-	C -> 857
-	858 [label="odziedziczyć"]
-	A -> 858
-	859 [label="dyżurowym"]
+	857 [label=ankiecie]
+	E -> 857
+	858 [label=dawkowania]
+	C -> 858
+	859 [label="odziedziczyć"]
 	A -> 859
-	860 [label=noszenia]
-	I -> 860
-	861 [label="żąda"]
-	B -> 861
-	862 [label=dokumentacje]
-	E -> 862
-	863 [label="psychoterapeutą"]
-	A -> 863
+	860 [label="dyżurowym"]
+	A -> 860
+	861 [label=noszenia]
+	I -> 861
+	862 [label="żąda"]
+	B -> 862
+	863 [label=dokumentacje]
 	E -> 863
-	864 [label=rowerzysta]
+	864 [label=adresu]
 	A -> 864
-	C -> 864
-	865 [label=wystawionej]
+	E -> 864
+	865 [label=dzieje]
+	A -> 865
 	C -> 865
-	866 [label=zalanie]
-	A -> 866
-	867 [label="odpłatnością"]
-	C -> 867
-	868 [label=zachowaniem]
+	866 [label=wystawionej]
+	C -> 866
+	867 [label=zalanie]
+	A -> 867
+	868 [label="odpłatnością"]
 	C -> 868
-	869 [label="specjalizację"]
-	I -> 869
-	870 [label="działkę"]
-	A -> 870
-	871 [label="ciążę"]
-	D -> 871
-	872 [label=okresowych]
+	869 [label=zachowaniem]
+	C -> 869
+	870 [label="specjalizację"]
+	I -> 870
+	871 [label="działkę"]
+	A -> 871
+	872 [label="ciążę"]
 	D -> 872
-	873 [label="określonych"]
-	E -> 873
-	874 [label="rozpoczęcia"]
+	873 [label=okresowych]
+	D -> 873
+	874 [label="określonych"]
 	E -> 874
-	875 [label=przemoc]
-	I -> 875
-	876 [label="ogólnodostępnej"]
-	C -> 876
-	877 [label="kształtować"]
-	E -> 877
-	878 [label=ustalania]
+	875 [label="rozpoczęcia"]
+	E -> 875
+	876 [label=przemoc]
+	I -> 876
+	877 [label="ogólnodostępnej"]
+	C -> 877
+	878 [label="kształtować"]
 	E -> 878
-	879 [label=wymiarze]
+	879 [label=ustalania]
 	E -> 879
-	880 [label=mediach]
-	C -> 880
-	881 [label="objętych"]
-	E -> 881
-	882 [label=akcyzowych]
-	G -> 882
-	883 [label="ciąży"]
-	I -> 883
-	884 [label="błędu"]
-	E -> 884
-	885 [label="przechowywać"]
+	880 [label=wymiarze]
+	E -> 880
+	881 [label=mediach]
+	C -> 881
+	882 [label="objętych"]
+	E -> 882
+	883 [label=akcyzowych]
+	G -> 883
+	884 [label="ciąży"]
+	I -> 884
+	885 [label="błędu"]
 	E -> 885
-	886 [label="żądać"]
-	I -> 886
-	887 [label="zaświadczenia"]
-	E -> 887
-	888 [label="odpowiedzieć"]
+	886 [label="przechowywać"]
+	E -> 886
+	887 [label="żądać"]
+	I -> 887
+	888 [label="zaświadczenia"]
 	E -> 888
-	889 [label=uwagi]
+	889 [label="odpowiedzieć"]
 	E -> 889
-	890 [label="zapłaci"]
-	D -> 890
-	I -> 890
-	891 [label=aneks]
-	E -> 891
-	892 [label=czynu]
-	I -> 892
-	893 [label=pozwu]
-	A -> 893
-	894 [label=partner]
+	890 [label=uwagi]
+	E -> 890
+	891 [label="zapłaci"]
+	D -> 891
+	I -> 891
+	892 [label=aneks]
+	E -> 892
+	893 [label=czynu]
+	I -> 893
+	894 [label=pozwu]
 	A -> 894
-	B -> 894
-	895 [label="błąd"]
-	E -> 895
-	896 [label="uchylić"]
-	A -> 896
-	C -> 896
-	897 [label="posiadający"]
+	895 [label=partner]
+	A -> 895
+	B -> 895
+	896 [label="błąd"]
+	E -> 896
+	897 [label="uchylić"]
+	A -> 897
 	C -> 897
-	898 [label=zatrudnionej]
-	E -> 898
-	899 [label="przedłużenia"]
+	898 [label="posiadający"]
+	C -> 898
+	899 [label=zatrudnionej]
 	E -> 899
-	900 [label=nocnych]
+	900 [label="przedłużenia"]
 	E -> 900
-	901 [label="prawidłowym"]
-	A -> 901
-	902 [label=praca]
-	D -> 902
-	903 [label="chcą"]
-	A -> 903
-	904 [label=placu]
-	B -> 904
-	905 [label=rachunek]
-	E -> 905
-	906 [label=wykroczenia]
-	I -> 906
-	907 [label="konieczności"]
-	E -> 907
-	908 [label="rozwiąże"]
+	901 [label=nocnych]
+	E -> 901
+	902 [label="prawidłowym"]
+	A -> 902
+	903 [label=praca]
+	D -> 903
+	904 [label="chcą"]
+	A -> 904
+	905 [label=placu]
+	B -> 905
+	906 [label=rachunek]
+	E -> 906
+	907 [label=wykroczenia]
+	I -> 907
+	908 [label="konieczności"]
 	E -> 908
-	909 [label=banku]
-	B -> 909
-	910 [label=zeznania]
-	I -> 910
-	911 [label=opiniach]
-	D -> 911
-	912 [label=opakowania]
-	C -> 912
-	913 [label="zleceniobiorców"]
-	D -> 913
-	F -> 913
-	914 [label="odbywała"]
-	A -> 914
-	E -> 914
-	915 [label="ochronę"]
-	D -> 915
-	916 [label=udzielaniu]
-	E -> 916
-	917 [label=bon]
+	909 [label="rozwiąże"]
+	E -> 909
+	910 [label=banku]
+	B -> 910
+	911 [label=zeznania]
+	I -> 911
+	912 [label=opiniach]
+	D -> 912
+	913 [label=opakowania]
+	C -> 913
+	914 [label="zleceniobiorców"]
+	D -> 914
+	F -> 914
+	915 [label="odbywała"]
+	A -> 915
+	E -> 915
+	916 [label="ochronę"]
+	D -> 916
+	917 [label=udzielaniu]
 	E -> 917
-	918 [label="dotyczącą"]
-	A -> 918
-	919 [label=partnerem]
-	E -> 919
-	920 [label="wypłacenia"]
+	918 [label=bon]
+	E -> 918
+	919 [label="dotyczącą"]
+	A -> 919
+	920 [label=partnerem]
 	E -> 920
-	921 [label=teleporady]
+	921 [label="wypłacenia"]
 	E -> 921
-	922 [label=numerem]
-	C -> 922
-	923 [label=zobligowany]
-	B -> 923
-	924 [label=pozwany]
-	A -> 924
-	925 [label=podania]
-	E -> 925
-	926 [label="pozostawić"]
-	C -> 926
-	927 [label=konkurencyjna]
-	F -> 927
-	928 [label="skróceniem"]
-	C -> 928
-	929 [label="sąsiedzi"]
-	A -> 929
-	B -> 929
-	930 [label="żonę"]
-	D -> 930
-	931 [label="uczestniczyć"]
-	E -> 931
-	932 [label=wskazanym]
-	D -> 932
-	933 [label="prowadzić"]
-	I -> 933
-	934 [label=przeprowadzeniu]
-	E -> 934
-	935 [label="ukończył"]
+	922 [label=teleporady]
+	E -> 922
+	923 [label=numerem]
+	C -> 923
+	924 [label=zobligowany]
+	B -> 924
+	925 [label=pozwany]
+	A -> 925
+	926 [label=podania]
+	E -> 926
+	927 [label="pozostawić"]
+	C -> 927
+	928 [label=konkurencyjna]
+	F -> 928
+	929 [label="skróceniem"]
+	C -> 929
+	930 [label="sąsiedzi"]
+	A -> 930
+	B -> 930
+	931 [label="żonę"]
+	D -> 931
+	932 [label="uczestniczyć"]
+	E -> 932
+	933 [label=wskazanym]
+	D -> 933
+	934 [label="prowadzić"]
+	I -> 934
+	935 [label=przeprowadzeniu]
 	E -> 935
-	936 [label="podwyższanie"]
-	A -> 936
-	C -> 936
-	937 [label=fizjoterapeutycznej]
-	E -> 937
-	938 [label="artykułu"]
-	F -> 938
-	939 [label=ekwiwalentu]
-	D -> 939
-	940 [label="rozwiązana"]
-	E -> 940
-	941 [label="regulować"]
-	A -> 941
-	942 [label=reprezentowany]
+	936 [label="ukończył"]
+	E -> 936
+	937 [label="podwyższanie"]
+	A -> 937
+	C -> 937
+	938 [label=fizjoterapeutycznej]
+	E -> 938
+	939 [label="artykułu"]
+	F -> 939
+	940 [label=ekwiwalentu]
+	D -> 940
+	941 [label="rozwiązana"]
+	E -> 941
+	942 [label="regulować"]
 	A -> 942
-	943 [label=listopada]
-	E -> 943
-	944 [label=stomatologicznej]
+	943 [label=reprezentowany]
+	A -> 943
+	944 [label=listopada]
 	E -> 944
-	945 [label=procesu]
-	A -> 945
-	946 [label=wirusem]
-	E -> 946
-	947 [label=rady]
-	C -> 947
+	945 [label=stomatologicznej]
+	E -> 945
+	946 [label=procesu]
+	A -> 946
+	947 [label=wirusem]
 	E -> 947
-	948 [label="bezpieczeństwa"]
-	F -> 948
-	949 [label=gmina]
-	B -> 949
-	950 [label="pełnomocnictwa"]
-	A -> 950
-	951 [label=programem]
-	E -> 951
-	952 [label=fizjoterapeuta]
-	E -> 952
-	953 [label=wzrok]
-	C -> 953
-	D -> 953
-	954 [label=wjazdu]
-	A -> 954
-	955 [label=urlop]
-	E -> 955
-	956 [label="związkowejw"]
-	E -> 956
-	957 [label=budynek]
-	B -> 957
-	958 [label="dopłaty"]
-	B -> 958
-	959 [label="używać"]
-	E -> 959
-	960 [label="zejście"]
-	E -> 960
-	961 [label=utrudnia]
-	I -> 961
-	962 [label=dostawy]
-	G -> 962
-	963 [label=medycznym]
-	E -> 963
-	G -> 963
-	964 [label=normy]
-	E -> 964
-	965 [label=wnioski]
-	A -> 965
-	966 [label="zaszczepić"]
-	C -> 966
-	E -> 966
+	948 [label=rady]
+	C -> 948
+	E -> 948
+	949 [label="bezpieczeństwa"]
+	F -> 949
+	950 [label=organom]
+	I -> 950
+	951 [label=gmina]
+	B -> 951
+	952 [label="pełnomocnictwa"]
+	A -> 952
+	953 [label=programem]
+	E -> 953
+	954 [label=fizjoterapeuta]
+	E -> 954
+	955 [label=wzrok]
+	C -> 955
+	D -> 955
+	956 [label=wjazdu]
+	A -> 956
+	957 [label=urlop]
+	E -> 957
+	958 [label="związkowejw"]
+	E -> 958
+	959 [label=budynek]
+	B -> 959
+	960 [label="dopłaty"]
+	B -> 960
+	961 [label="używać"]
+	E -> 961
+	962 [label="zejście"]
+	E -> 962
+	963 [label=utrudnia]
+	I -> 963
+	964 [label=dostawy]
+	G -> 964
+	965 [label=normy]
+	E -> 965
+	966 [label=wnioski]
+	A -> 966
 	967 [label=importu]
 	C -> 967
 	968 [label="zajęć"]
@@ -2045,195 +2045,198 @@ digraph IUI {
 	E -> 972
 	973 [label=paragonu]
 	G -> 973
-	974 [label=rewersie]
-	C -> 974
-	975 [label=premii]
-	D -> 975
-	976 [label="zaopatrywać"]
-	C -> 976
-	977 [label=urlopem]
-	D -> 977
-	978 [label=pojazd]
-	B -> 978
-	979 [label=synowej]
-	A -> 979
-	980 [label=przetwarzanie]
-	B -> 980
-	981 [label="użyć"]
+	974 [label="psychoterapeutą"]
+	E -> 974
+	975 [label=rewersie]
+	C -> 975
+	976 [label=premii]
+	D -> 976
+	977 [label=rzeczy]
+	A -> 977
+	C -> 977
+	E -> 977
+	978 [label="miejscowości"]
+	C -> 978
+	I -> 978
+	979 [label="zaopatrywać"]
+	C -> 979
+	980 [label=urlopem]
+	D -> 980
+	981 [label=pojazd]
 	B -> 981
-	982 [label=rekompensaty]
-	B -> 982
-	983 [label="książkę"]
-	C -> 983
-	984 [label=polisy]
-	E -> 984
-	985 [label="groźba"]
-	I -> 985
-	986 [label=zapotrzebowania]
+	982 [label=synowej]
+	A -> 982
+	983 [label=przetwarzanie]
+	B -> 983
+	984 [label="użyć"]
+	B -> 984
+	985 [label=rekompensaty]
+	B -> 985
+	986 [label="książkę"]
 	C -> 986
-	987 [label="sporządzenia"]
-	B -> 987
-	988 [label=aktualnych]
-	A -> 988
-	E -> 988
-	989 [label=skutkuje]
-	A -> 989
-	990 [label=podanej]
-	I -> 990
-	991 [label=zastrzec]
-	B -> 991
-	992 [label="ubezwłasnowolnienia"]
-	A -> 992
-	993 [label=negatywnych]
-	C -> 993
-	994 [label="przywrócona"]
-	D -> 994
-	995 [label="sprowadzić"]
+	987 [label=polisy]
+	E -> 987
+	988 [label="groźba"]
+	I -> 988
+	989 [label=zapotrzebowania]
+	C -> 989
+	990 [label="sporządzenia"]
+	B -> 990
+	991 [label=skutkuje]
+	A -> 991
+	992 [label=podanej]
+	I -> 992
+	993 [label=zastrzec]
+	B -> 993
+	994 [label="ubezwłasnowolnienia"]
+	A -> 994
+	995 [label=negatywnych]
 	C -> 995
-	996 [label=zasadna]
-	A -> 996
-	997 [label=korzystanie]
-	A -> 997
-	998 [label="dostosować"]
-	C -> 998
-	999 [label="opinię"]
-	I -> 999
-	1000 [label=wydruk]
-	E -> 1000
-	1001 [label=nagany]
-	D -> 1001
-	1002 [label=remontowego]
-	A -> 1002
-	1003 [label=dniu]
-	E -> 1003
-	1004 [label=rzeczy]
+	996 [label="przywrócona"]
+	D -> 996
+	997 [label="sprowadzić"]
+	C -> 997
+	998 [label=zasadna]
+	A -> 998
+	999 [label=korzystanie]
+	A -> 999
+	1000 [label="dostosować"]
+	C -> 1000
+	1001 [label="opinię"]
+	I -> 1001
+	1002 [label=wydruk]
+	E -> 1002
+	1003 [label=nagany]
+	D -> 1003
+	1004 [label=remontowego]
 	A -> 1004
-	1005 [label=spadkodawcy]
-	A -> 1005
-	1006 [label=procesowego]
+	1005 [label=dniu]
+	E -> 1005
+	1006 [label=spadkodawcy]
 	A -> 1006
-	1007 [label=farmaceuci]
-	C -> 1007
-	E -> 1007
-	1008 [label=nieuprawnionym]
-	A -> 1008
-	1009 [label=dokonania]
+	1007 [label=procesowego]
+	A -> 1007
+	1008 [label=letniego]
+	C -> 1008
+	E -> 1008
+	1009 [label=nieuprawnionym]
 	A -> 1009
-	1010 [label="prowadzącej"]
-	C -> 1010
-	1011 [label="minimalną"]
-	E -> 1011
-	1012 [label=sprawa]
-	A -> 1012
-	1013 [label="odbiór"]
-	B -> 1013
-	1014 [label=nabywane]
-	B -> 1014
-	1015 [label=zbudowany]
-	A -> 1015
+	1010 [label="przesłania"]
+	I -> 1010
+	1011 [label=dokonania]
+	A -> 1011
+	1012 [label="prowadzącej"]
+	C -> 1012
+	1013 [label="minimalną"]
+	E -> 1013
+	1014 [label=sprawa]
+	A -> 1014
+	1015 [label="odbiór"]
 	B -> 1015
-	E -> 1015
-	1016 [label=czynszu]
-	A -> 1016
-	1017 [label=badaniami]
+	1016 [label=nabywane]
+	B -> 1016
+	1017 [label=zbudowany]
 	A -> 1017
+	B -> 1017
 	E -> 1017
-	1018 [label=korony]
-	E -> 1018
-	1019 [label="podstawą"]
-	D -> 1019
-	1020 [label="zewnętrzny"]
+	1018 [label=czynszu]
+	A -> 1018
+	1019 [label=badaniami]
+	A -> 1019
+	E -> 1019
+	1020 [label=korony]
 	E -> 1020
-	1021 [label=powinny]
-	A -> 1021
-	E -> 1021
-	1022 [label=kierownikowi]
+	1021 [label="podstawą"]
+	D -> 1021
+	1022 [label="zewnętrzny"]
 	E -> 1022
-	1023 [label="alimentów"]
+	1023 [label=powinny]
 	A -> 1023
-	1024 [label=lat]
+	E -> 1023
+	1024 [label=kierownikowi]
 	E -> 1024
-	1025 [label="przedmiotową"]
-	E -> 1025
-	1026 [label=obraz]
-	B -> 1026
-	1027 [label="uzupełnić"]
+	1025 [label="alimentów"]
+	A -> 1025
+	1026 [label=lat]
+	E -> 1026
+	1027 [label="przedmiotową"]
 	E -> 1027
-	1028 [label=uprawniony]
-	E -> 1028
-	1029 [label="uniknięcia"]
-	D -> 1029
-	1030 [label=skan]
-	A -> 1030
-	1031 [label=substancje]
-	C -> 1031
-	1032 [label=portal]
-	B -> 1032
-	1033 [label=prokuraturze]
-	I -> 1033
-	1034 [label="zakończeniem"]
-	A -> 1034
-	C -> 1034
-	1035 [label="udzielić"]
+	1028 [label=obraz]
+	B -> 1028
+	1029 [label="uzupełnić"]
+	E -> 1029
+	1030 [label=uprawniony]
+	E -> 1030
+	1031 [label="uniknięcia"]
+	D -> 1031
+	1032 [label=skan]
+	A -> 1032
+	1033 [label=substancje]
+	C -> 1033
+	1034 [label=portal]
+	B -> 1034
+	1035 [label=prokuraturze]
 	I -> 1035
-	1036 [label="zbywać"]
+	1036 [label="zakończeniem"]
+	A -> 1036
 	C -> 1036
-	1037 [label="kierować"]
-	E -> 1037
-	1038 [label=wypoczynkowym]
-	D -> 1038
-	1039 [label=centrum]
+	1037 [label="udzielić"]
+	I -> 1037
+	1038 [label="zbywać"]
+	C -> 1038
+	1039 [label="kierować"]
 	E -> 1039
-	1040 [label="majątek"]
-	A -> 1040
-	1041 [label=dojazdu]
-	A -> 1041
-	1042 [label=rejestracyjnego]
-	C -> 1042
-	1043 [label="objęta"]
-	E -> 1043
-	1044 [label="prośbą"]
-	A -> 1044
-	1045 [label="garażowej"]
-	A -> 1045
-	1046 [label=trzeciej]
-	E -> 1046
-	1047 [label=przetwarzania]
-	B -> 1047
-	1048 [label=starosta]
-	A -> 1048
+	1040 [label=wypoczynkowym]
+	D -> 1040
+	1041 [label=centrum]
+	E -> 1041
+	1042 [label="majątek"]
+	A -> 1042
+	1043 [label=dojazdu]
+	A -> 1043
+	1044 [label=rejestracyjnego]
+	C -> 1044
+	1045 [label="objęta"]
+	E -> 1045
+	1046 [label="prośbą"]
+	A -> 1046
+	1047 [label="garażowej"]
+	A -> 1047
+	1048 [label=trzeciej]
 	E -> 1048
-	1049 [label="nadzór"]
-	E -> 1049
-	1050 [label="zarządcy"]
-	B -> 1050
-	C -> 1050
+	1049 [label=przetwarzania]
+	B -> 1049
+	1050 [label=starosta]
+	A -> 1050
 	E -> 1050
-	1051 [label="szczękowotwarzowej"]
+	1051 [label="nadzór"]
 	E -> 1051
-	1052 [label=gospodarstwie]
-	A -> 1052
+	1052 [label="zarządcy"]
+	B -> 1052
 	C -> 1052
-	1053 [label=przekazania]
-	A -> 1053
-	B -> 1053
-	1054 [label="nieruchomości"]
-	G -> 1054
-	1055 [label=instalacji]
-	A -> 1055
-	1056 [label="obniżenie"]
-	D -> 1056
-	1057 [label=pozwoleniu]
-	B -> 1057
-	1058 [label=uzyskaniem]
-	E -> 1058
-	1059 [label="zaległy"]
-	D -> 1059
-	1060 [label=rozumieniu]
-	E -> 1060
-	1061 [label=zabieg]
+	E -> 1052
+	1053 [label="szczękowotwarzowej"]
+	E -> 1053
+	1054 [label=przekazania]
+	A -> 1054
+	B -> 1054
+	1055 [label="nieruchomości"]
+	G -> 1055
+	1056 [label=instalacji]
+	A -> 1056
+	1057 [label="obniżenie"]
+	D -> 1057
+	1058 [label=pozwoleniu]
+	B -> 1058
+	1059 [label=uzyskaniem]
+	E -> 1059
+	1060 [label="zaległy"]
+	D -> 1060
+	1061 [label=rozumieniu]
 	E -> 1061
-	1062 [label=rozwodu]
-	A -> 1062
-	G -> 1062
+	1062 [label=zabieg]
+	E -> 1062
+	1063 [label=rozwodu]
+	A -> 1063
+	G -> 1063
 }
